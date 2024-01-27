@@ -76,3 +76,17 @@
     gap: 32px;
 }
 
+.home .informacoes .titulo {
+    font-family: 'ChaletComprime';
+    font-size: 55px;
+}
+
+.home .informacoes .texto {
+    font-family: 'Chalet';
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn-comprar {
+    
+}
