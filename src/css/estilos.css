@@ -34,3 +34,9 @@
 .cabecalho .menu li a:hover {
     border-bottom: 2px solid #fff;
 }
+
+.home {
+    background-color: aqua;
+    display: flex;
+    position: relative;
+}
