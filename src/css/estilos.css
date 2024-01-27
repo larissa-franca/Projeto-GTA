@@ -59,9 +59,13 @@
     background-color: blueviolet;
     position: absolute;
     z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .home .informacoes img {
     max-width: 150px;
-    
+
 }
