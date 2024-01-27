@@ -56,16 +56,23 @@
 }
 
 .home .informacoes {
-    background-color: blueviolet;
     position: absolute;
     z-index: 1;
     min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
 }
 
 .home .informacoes img {
     max-width: 150px;
-
 }
+
+.home .informacoes .lista-de-jogos {
+    display: flex;
+    gap: 32px;
+}
+
