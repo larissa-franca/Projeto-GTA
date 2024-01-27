@@ -30,3 +30,7 @@
     font-size: 15px;
     font-family: 'Chalet';
 }
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #fff;
+}
