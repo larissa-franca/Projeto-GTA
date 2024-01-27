@@ -134,3 +134,11 @@
     padding: 80px;
     gap: 40px;
 }
+
+.compre-ja .informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
