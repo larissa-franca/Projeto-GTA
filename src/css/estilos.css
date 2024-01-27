@@ -173,6 +173,13 @@
     flex-direction: center;
     gap: 20px;
     transition: all 3s ease-in;
+    display: none;
+    opacity: 1;
+}
+
+.compre-ja .btn-plataforma .plataformas.ativo{
+    display: flex;
+    opacity: ;
 }
 
 .compre-ja .btn-plataforma .plataformas li{
@@ -216,4 +223,3 @@
 .compre-ja .btn-plataforma .plataformas li:nth-child(5):hover {
     background-color: #fcaf17;
 }
-
