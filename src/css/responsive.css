@@ -26,3 +26,22 @@
         width: 70%;
     }
 }
+
+@media (max-width: 768px){
+    .compre-ja{
+        padding: 30px;
+    }
+
+    .compre-ja .cartao{
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compre-ja .informacoes h3{
+        font-size: 35px;
+    }
+
+    .compre-ja .informacoes .plataformas{
+        flex-direction: column;
+    }
+}
