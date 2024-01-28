@@ -100,6 +100,12 @@
     transition: all .3s ease-in;
 }
 
+.btn-plataforma{
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
 .btn-comprar:hover{
     background-color: #fff;
     color: #000;
@@ -109,18 +115,12 @@
     width: 270px;
 }
 
-.compre-ja, .btn-plataforma{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 50px;
-    align-items: center;
-}
-
-.btn-plataforma{
-    color: #fff;
-    width: 100%;
-    cursor: pointer;
+.compre-ja {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 50px;
+	align-items: center;
 }
 
 .compre-ja .titulo {
@@ -153,6 +153,7 @@
     font-weight: 700;
 }
 
+
 .compre-ja .informacoes p{
     color: #e8e8e8;
     font-family: 'Chalet';
@@ -180,6 +181,15 @@
 .compre-ja .btn-plataforma .plataformas.ativo{
     display: flex;
     opacity: 1;
+    flex-direction: column;
+}
+
+.compre-ja, .btn-plataforma{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
 }
 
 .compre-ja .btn-plataforma .plataformas li{
