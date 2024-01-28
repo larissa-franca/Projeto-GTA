@@ -14,7 +14,17 @@ Objetivo 2 - caso a lista de botões de plataformas já esteja aparecendo e o us
 */
 
 const botao = document.querySelector('.btn-plataforma');
-const elementoPlataformas = document.querySelector('.btn-plataforma .plataformas')
+const elementoPlataformas = document.querySelector('.btn-plataforma .plataformas');
 
+botao.addEventListener('click', () => {
+    const botaoAberto = elementoPlataformas.classList.contains('ativo');
+    
+    elementoPlataformas.classList.add('ativo');
+    if(botaoAberto) {
+        elementoPlataformas.classList.remove('ativo')
+    }else{
+        elementoPlataformas.classList.add('ativo')
+    }
+})
 
 
